@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamental Data Types in Python</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        pre {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            overflow-x: auto;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fundamental Data Types in Python</h1>
+
+    <div class="section">
+        <h2>Basic Data Types</h2>
+        <p>int, float, complex, str, bool, list, tuple, set, dict</p>
+        
+        <h3>1. Integer (int)</h3>
+        <p>Integers are whole numbers. Basic mathematical operations can easily be performed.</p>
+        <pre>
+print(type(1+2))  # int type class
+print(1-2)
+print(1*2)
+        </pre>
+
+        <h3>2. Float</h3>
+        <p>Floats represent decimal numbers. They use more memory than integers.</p>
+        <pre>
+print(1/2)  # float data type = any kind of decimal output
+        </pre>
+
+        <h3>3. Complex</h3>
+        <p>Complex numbers are used in complex mathematical calculations (x+yi).</p>
+    </div>
+
+    <div class="section">
+        <h2>Math Functions</h2>
+        <pre>
+print(round(2.6))  # Round off to the closest integer
+print(abs(-100))   # Prints absolute values/no negative numbers
+        </pre>
+    </div>
+
+    <div class="section">
+        <h2>Operator Precedence</h2>
+        <p>Also called operator priority, it follows the rule "PEMDAS":</p>
+        <ul>
+            <li>P – Parentheses</li>
+            <li>E – Exponentiation</li>
+            <li>M – Multiplication (Multiplication and division have the same precedence)</li>
+            <li>D – Division</li>
+            <li>A – Addition (Addition and subtraction have the same precedence)</li>
+            <li>S – Subtraction</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Miscellaneous Information</h2>
+        <ul>
+            <li>Variables are in snake_case (all lowercase with underscores)</li>
+            <li>Examples of variable assignments:
+                <pre>
+user_IQ = 29
+print(user_IQ)
+PI = 3.14  # Unchanging value
+a, b, c = 1, 2, 3
+                </pre>
+            </li>
+            <li>Statement vs Expression:
+                <pre>
+iq = 100      # Statement
+user_Age = iq/4  # Expression
+                </pre>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

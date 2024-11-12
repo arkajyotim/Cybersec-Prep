@@ -13,7 +13,18 @@
 
 #3) complex -> mostly used in complex mathematical calculations (x+yi)
 
-#4) 
+#4) str -> string type . It is used to store textual data
+# print(type('Hello, world')); 
+# username = "something";
+# password = "something";
+# long_string="""
+#     This is a multi-line string.
+#     It can span multiple lines.
+#     This is useful for writing long texts.
+# """;
+# print(long_string)
+
+
 
 #-----------------------------------------------------------------------------------------------------------------------------
 
@@ -34,5 +45,26 @@
 # A – Addition (Addition and subtraction have the same precedence)
 # S – Subtraction
 
+#-----------------------------------------------------------------------------------------------------------------------------
 
+                                                     # MISC Information
 
+#Note: Variables are in snake_case(all lower case with _ )
+#Variable
+# user_IQ = 29
+# print(user_IQ)
+# PI = 3.14 #Unchanging value 
+# a,b,c = 1,2,3
+
+#Binary Convertion
+#print(bin(5))               #prints binary output in the form of 0b____
+#print(int("0b101",2))       #the binary will be stored in memory and 2 is represented as base2 which is binary
+
+# Statement vs Expressions
+# iq=100  -> Statement 
+# user_Age = iq/4 -> Expression 
+
+#Augmented assignment operator
+# some_value = 5;
+# some_value += 2
+# print(some_value)
