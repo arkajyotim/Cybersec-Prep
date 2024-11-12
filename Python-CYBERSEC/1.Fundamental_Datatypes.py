@@ -18,7 +18,13 @@
 
                                           # Operator Precedence
 
-#Also called operator priority
+#Also called operator priority , it follows the rule "PEMDAS"
+# P – Parentheses
+# E – Exponentiation
+# M – Multiplication (Multiplication and division have the same precedence)
+# D – Division
+# A – Addition (Addition and subtraction have the same precedence)
+# S – Subtraction
 
-
+print (20 - 3 * 4)
 
