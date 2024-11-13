@@ -4,26 +4,38 @@
 
 #1) int
 # int -> integer . Basic mathemetical operations can easily be performed
-# print (type(1+2));  // int type class
-# print (1-2);
-# print (1*2);
+#        print (type(1+2));               <------------- int type class
+#        print (1-2);
+#        print (1*2);
 
-#2) float
-# print (1/2);       // float data type = any kind of deciaml output (more memory)
+#2) float -> float type class 
+# print (1/2);                            <------------  float data type = any kind of deciaml output (more memory)
 
 #3) complex -> mostly used in complex mathematical calculations (x+yi)
 
-#4) str -> string type . It is used to store textual data
-# print(type('Hello, world')); 
-# username = "something";
-# password = "something";
-# long_string="""
-#     This is a multi-line string.
-#     It can span multiple lines.
-#     This is useful for writing long texts.
-# """;
-# print(long_string)
-
+#4) string  -> string type . It is used to store textual data
+#       print(type('Hello, world')); 
+#       username = "something";
+#       password = "something";
+#       long_string="""
+#       This is a multi-line string.
+#       It can span multiple lines.
+#       This is useful for writing long texts.
+#       """;
+#       print(long_string)
+# string concatination
+#       print("rexon"+ " " +'yt')
+# formatted string
+#       name="jhonny"
+#       age=55;
+#       print(f'hi {name} your age is {age}')
+# string indexes
+#         selfish = '01234567';
+#                    01234567
+#         [start:stop:stepover]
+#         print(selfish[0:8:2])
+#         print(selfish[::-1]) ------> used to Reverse a String <--------
+#         selfish[0]=8         ------> strings are immutable and canned be updated/ Only memory override is possible
 
 
 #-----------------------------------------------------------------------------------------------------------------------------
@@ -47,7 +59,7 @@
 
 #-----------------------------------------------------------------------------------------------------------------------------
 
-                                                     # MISC Information
+                                         # MISC Information
 
 #Note: Variables are in snake_case(all lower case with _ )
 #Variable
@@ -68,3 +80,7 @@
 # some_value = 5;
 # some_value += 2
 # print(some_value)
+
+#Escape sequence
+# weather= "It's a \"sunny\" Day Isn't it "  -> whatever is in between \\ is considered a string
+# print(weather)

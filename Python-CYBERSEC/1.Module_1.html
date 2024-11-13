@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundamental Data Types in Python</title>
+    <title>Python Fundamentals - Module 1</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,7 +12,7 @@
             max-width: 800px;
             margin: 0 auto;
         }
-        h1, h2 {
+        h1, h2, h3 {
             color: #333;
         }
         pre {
@@ -25,13 +25,19 @@
         .section {
             margin-bottom: 30px;
         }
+        .note {
+            background-color: #ffffd9;
+            border-left: 5px solid #ffeb3b;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
-    <h1>Fundamental Data Types in Python</h1>
+    <h1>Python Fundamentals - Module 1</h1>
 
     <div class="section">
-        <h2>Basic Data Types</h2>
+        <h2>Fundamental Data Types</h2>
         <p>int, float, complex, str, bool, list, tuple, set, dict</p>
         
         <h3>1. Integer (int)</h3>
@@ -50,6 +56,44 @@ print(1/2)  # float data type = any kind of decimal output
 
         <h3>3. Complex</h3>
         <p>Complex numbers are used in complex mathematical calculations (x+yi).</p>
+
+        <h3>4. String (str)</h3>
+        <p>Strings are used to store textual data.</p>
+        <pre>
+print(type('Hello, world'))
+username = "something"
+password = "something"
+long_string = """
+This is a multi-line string.
+It can span multiple lines.
+This is useful for writing long texts.
+"""
+print(long_string)
+        </pre>
+
+        <h4>String Concatenation</h4>
+        <pre>
+print("rexon" + " " + 'yt')
+        </pre>
+
+        <h4>Formatted String</h4>
+        <pre>
+name = "jhonny"
+age = 55
+print(f'hi {name} your age is {age}')
+        </pre>
+
+        <h4>String Indexes</h4>
+        <pre>
+selfish = '01234567'
+#         01234567
+# [start:stop:stepover]
+print(selfish[0:8:2])
+print(selfish[::-1])  # used to Reverse a String
+        </pre>
+        <div class="note">
+            Note: Strings are immutable and cannot be updated. Only memory override is possible.
+        </div>
     </div>
 
     <div class="section">
@@ -77,7 +121,7 @@ print(abs(-100))   # Prints absolute values/no negative numbers
         <h2>Miscellaneous Information</h2>
         <ul>
             <li>Variables are in snake_case (all lowercase with underscores)</li>
-            <li>Examples of variable assignments:
+            <li>Example variable assignments:
                 <pre>
 user_IQ = 29
 print(user_IQ)
@@ -85,10 +129,29 @@ PI = 3.14  # Unchanging value
 a, b, c = 1, 2, 3
                 </pre>
             </li>
+            <li>Binary Conversion:
+                <pre>
+print(bin(5))               # prints binary output in the form of 0b____
+print(int("0b101", 2))      # the binary will be stored in memory and 2 is represented as base2 which is binary
+                </pre>
+            </li>
             <li>Statement vs Expression:
                 <pre>
 iq = 100      # Statement
 user_Age = iq/4  # Expression
+                </pre>
+            </li>
+            <li>Augmented Assignment Operator:
+                <pre>
+some_value = 5
+some_value += 2
+print(some_value)
+                </pre>
+            </li>
+            <li>Escape Sequence:
+                <pre>
+weather = "It's a \"sunny\" Day Isn't it"  # whatever is in between \ is considered a string
+print(weather)
                 </pre>
             </li>
         </ul>
