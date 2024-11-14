@@ -35,7 +35,24 @@
 #         [start:stop:stepover]
 #         print(selfish[0:8:2])
 #         print(selfish[::-1]) ------> used to Reverse a String <--------
-#         selfish[0]=8         ------> strings are immutable and canned be updated/ Only memory override is possible
+#         selfish[0]=8         ------> strings are immutable and cannot be updated/ Only memory override is possible
+
+
+# 5)Boolean
+          #print(bool(0))
+          #so boolean gives 0->false and 1->true
+
+
+# 6)Lists
+        #Lists are mutable/changable unlike strings
+            # BookList=['Harry Potter','Shakespeare']
+            # print(BookList[0])
+        #List Slicing:-
+            # amazon_cart=['cake','biscuit','chips','snacks']
+            # print(amazon_cart.[0:4])
+        #list methods -> append,extend,clear,pop,insert,index,count etc.
+
+
 
 
 #-----------------------------------------------------------------------------------------------------------------------------
@@ -73,14 +90,24 @@
 #print(int("0b101",2))       #the binary will be stored in memory and 2 is represented as base2 which is binary
 
 # Statement vs Expressions
-# iq=100  -> Statement 
-# user_Age = iq/4 -> Expression 
+                  # iq=100  -> Statement 
+                  # user_Age = iq/4 -> Expression 
 
 #Augmented assignment operator
-# some_value = 5;
-# some_value += 2
-# print(some_value)
+                  # some_value = 5;
+                  # some_value += 2
+                  # print(some_value)
 
 #Escape sequence
-# weather= "It's a \"sunny\" Day Isn't it "  -> whatever is in between \\ is considered a string
-# print(weather)
+                   #weather= "It's a \"sunny\" Day Isn't it "  <------- whatever is in between \\ is considered a string
+                   #print(weather)
+
+#Built in Functions + Methods
+                  # quote='Hi there good evening'
+                  # print(quote.upper())                        <------ this will print uppercase 
+
+
+#Type-Conversion
+                  # birth_year=input('what year were you born: ')
+                  # age = 2024 - int (birth_year)
+                  # print(f'your age is : {age}' )
