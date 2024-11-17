@@ -52,6 +52,10 @@
             # print(amazon_cart.[0:4])
         #list methods -> append,extend,clear,pop,insert,index,count etc.
 
+basket=['a','b','c','d','f','e']
+basket.sort();
+print(basket)
+
 
 
 
