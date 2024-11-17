@@ -45,16 +45,15 @@
 
 # 6)Lists
         #Lists are mutable/changable unlike strings
-            # BookList=['Harry Potter','Shakespeare']
-            # print(BookList[0])
+                # BookList=['Harry Potter','Shakespeare']
+                # print(BookList[0])
         #List Slicing:-
-            # amazon_cart=['cake','biscuit','chips','snacks']
-            # print(amazon_cart.[0:4])
+                # amazon_cart=['cake','biscuit','chips','snacks']
+                # print(amazon_cart.[0:4])
         #list methods -> append,extend,clear,pop,insert,index,count etc.
-
-basket=['a','b','c','d','f','e']
-basket.sort();
-print(basket)
+                # basket=['a','b','c','d','f','e']
+                # # basket.sort();
+                # # print(basket)
 
 
 
