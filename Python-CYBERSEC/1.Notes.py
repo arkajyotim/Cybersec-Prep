@@ -1,47 +1,46 @@
                                           #Fundamental Data types
 
-#int , float , complex , str , bool , list , tuple , set , dict
+#int , float , complex , str , bool , list , dict , tuple , set 
 
 #1) int
 # int -> integer . Basic mathemetical operations can easily be performed
-#        print (type(1+2));               <------------- int type class
-#        print (1-2);
-#        print (1*2);
+        #print (type(1+2));        <------------- int type class
+        #print (1-2);
+        #print (1*2);
 
 #2) float -> float type class 
-# print (1/2);                            <------------  float data type = any kind of deciaml output (more memory)
+        #print (1/2);             <------------  float data type = any kind of deciaml output (more memory)
 
 #3) complex -> mostly used in complex mathematical calculations (x+yi)
 
 #4) string  -> string type . It is used to store textual data
-#       print(type('Hello, world')); 
-#       username = "something";
-#       password = "something";
-#       long_string="""
-#       This is a multi-line string.
-#       It can span multiple lines.
-#       This is useful for writing long texts.
-#       """;
-#       print(long_string)
-# string concatination
-#       print("rexon"+ " " +'yt')
-# formatted string
-#       name="jhonny"
-#       age=55;
-#       print(f'hi {name} your age is {age}')
-# string indexes
-#         selfish = '01234567';
-#                    01234567
-#         [start:stop:stepover]
-#         print(selfish[0:8:2])
-#         print(selfish[::-1]) ------> used to Reverse a String <--------
-#         selfish[0]=8         ------> strings are immutable and cannot be updated/ Only memory override is possible
+                #print(type('Hello, world')); 
+                #username = "something";
+                #password = "something";
+                #long_string="""
+                #This is a multi-line string.
+                #It can span multiple lines.
+                #This is useful for writing long texts.
+                #""";
+                #print(long_string)
+        # string concatination
+               #print("rexon"+ " " +'yt')
+        # formatted string
+                #name="jhonny"
+                #age=55;
+                #print(f'hi {name} your age is {age}')
+        # string indexes
+                # selfish = '01234567';
+                #            01234567
+                # [start:stop:stepover]
+                # print(selfish[0:8:2])
+                # print(selfish[::-1]) ------> used to Reverse a String <--------
+                # selfish[0]=8         ------> strings are immutable and cannot be updated/ Only memory override is possible
 
 
-# 5)Boolean
-          #print(bool(0))
-          #so boolean gives 0->false and 1->true
-
+# 5)Boolean --> gives 0->false and 1->true
+                 #print(bool(0))
+         
 
 # 6)Lists
         #Lists are mutable/changable unlike strings
@@ -57,10 +56,25 @@
         #List Range
                 #print(list(range(1,100)))
         #List to string conversion
-                
+                # new_sentence = " ".join(['hi','my','name','is','rexon'])
+                # print(new_sentence)
 
 
-
+# 7)Dictionary --> unordered key value pair
+                # dictionary = {
+                # 'a':1,
+                # 'b':2,
+                # 'c':3,
+                # }
+                # print(dictionary["a"])
+        #Immutable dict values
+                # user={
+                #         'basket':[1,2,3],
+                #         'greet':'hello',
+                #         'age':20
+                # }
+                # print(user.get('age',55)) --> will print age as 20 and 55 will not be overrided as dict is immutable
+        #Dictionary methods: keys,values,items
 
 #-----------------------------------------------------------------------------------------------------------------------------
 
