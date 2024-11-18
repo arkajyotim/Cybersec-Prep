@@ -50,10 +50,12 @@
         #List Slicing:-
                 # amazon_cart=['cake','biscuit','chips','snacks']
                 # print(amazon_cart.[0:4])
-        #list methods -> append,extend,clear,pop,insert,index,count etc.
+        #list methods -> append,extend,clear,pop,insert,index,count,sort,reverse,sorted etc.
                 # basket=['a','b','c','d','f','e']
                 # # basket.sort();
                 # # print(basket)
+        #List Range
+                #print(list(range(1,100)))
 
 
 
