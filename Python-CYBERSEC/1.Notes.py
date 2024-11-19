@@ -74,7 +74,7 @@
                 #         'age':20
                 # }
                 # print(user.get('age',55)) --> will print age as 20 and 55 will not be overrided as dict is immutable
-        #Dictionary methods: keys,values,items
+        #Dictionary methods: keys,values,items,clear,copy,pop,popitem,update
 
 #-----------------------------------------------------------------------------------------------------------------------------
 
