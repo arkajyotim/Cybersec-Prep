@@ -1,6 +1,6 @@
                                           #Fundamental Data types
 
-#int , float , complex , str , bool , list , dict , tuple , set 
+# int | float | complex | str | bool | list | dict | tuple | set 
 
 #1) int
 # int -> integer . Basic mathemetical operations can easily be performed
@@ -41,7 +41,6 @@
 # 5)Boolean --> gives 0->false and 1->true
                  #print(bool(0))
          
-
 # 6)Lists
         #Lists are mutable/changable unlike strings
                 # BookList=['Harry Potter','Shakespeare']
@@ -73,8 +72,13 @@
                 #         'greet':'hello',
                 #         'age':20
                 # }
-                # print(user.get('age',55)) --> will print age as 20 and 55 will not be overrided as dict is immutable
+                # print(user.get('age',55))   -----> will print age as 20 and 55 will not be overrided as dict is immutable
         #Dictionary methods: keys,values,items,clear,copy,pop,popitem,update
+
+
+# 8)Tuple ----> immutable lists
+                # my_tuple = (1,2,3,4,5);
+                # print(my_tuple[2])
 
 #-----------------------------------------------------------------------------------------------------------------------------
 
