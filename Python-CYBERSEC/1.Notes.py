@@ -79,7 +79,10 @@
 # 8)Tuple ----> immutable lists
                 # my_tuple = (1,2,3,4,5);
                 # print(my_tuple[2])
-
+        #methods
+                # hi_tuple=(1,2,3,4,5);
+                # print(hi_tuple.index(2))
+                # print(hi_tuple.count(2))
 #-----------------------------------------------------------------------------------------------------------------------------
 
                                           # Math Functions
