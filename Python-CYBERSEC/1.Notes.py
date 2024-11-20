@@ -83,16 +83,27 @@
                 # hi_tuple=(1,2,3,4,5);
                 # print(hi_tuple.index(2))
                 # print(hi_tuple.count(2))
+
+# 9) Sets -----> no duplicates ,immutable 
+
+                # my_set={1,2,3,4,5,6}
+                # your_set={5,6,7,8,9,10}
+
+                #print(my_set.difference(your_set)) ---> intersection of set
+                #print(my_set.discard(5)) ---> remove 5 from my_set
+        #some other methods are :- .difference.update(),.intersection(),.isdisjoint(),.issubset(),.issuperset,.union()
+
 #-----------------------------------------------------------------------------------------------------------------------------
 
-                                          # Math Functions
+# Math Functions
 
 #print(round(2.6)) -> Round off to the closest integer
 #print(abs(-100)) -> prints absolute values/no negative numbers
 
+
 #-----------------------------------------------------------------------------------------------------------------------------
 
-                                          # Operator Precedence
+# Operator Precedence
 
 #Also called operator priority , it follows the rule "PEMDAS"
 # P – Parentheses
@@ -104,7 +115,7 @@
 
 #-----------------------------------------------------------------------------------------------------------------------------
 
-                                         # MISC Information
+# MISC Information
 
 #Note: Variables are in snake_case(all lower case with _ )
 #Variable
