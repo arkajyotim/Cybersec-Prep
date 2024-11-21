@@ -69,3 +69,14 @@
             # new_friend = ['Stanley']
             # friends.extend(new_friend)
             # print(sorted(friends))
+
+# Exercise_Lecture_213
+
+            # is_magician = False
+            # is_expert = True
+            # if is_expert and is_magician:
+            #   print('you are a master magician') #magician and expert
+            # elif is_magician and not is_expert:
+            #   print('you are getting there')     #magician but not expert
+            # elif not is_magician:
+            #   print('you are not a magician')    #not magician

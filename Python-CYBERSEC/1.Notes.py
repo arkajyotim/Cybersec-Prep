@@ -153,8 +153,11 @@
 
 #---------------------------------------------------------------------------------------------------------------------------------
 
-#Logical Operators and Loops
-        #Liscence to drive at proper age:-
+#Logical Operators
+
+
+        # if else elif :- 
+                #Liscence to drive at proper age:-
                 # is_old=True;
                 # is_liscenced=True;
 
@@ -162,3 +165,16 @@
                 #         print('you are old and you have liscence to drive');
                 # else:
                 #         print('not allowed')
+        # NOTE: Also here in if else statements if you enter any other value other than boolean it will automatically be converted into bool
+
+        #Logical operators ---> < > == != <= >= and or not
+
+        #Ternary operator (conditonal expression):-
+                # is_friend=False
+                # can_message='message allowed' if is_friend else 'not allowed to message'
+                # print(can_message)
+
+
+#LOOPS
+
+        
