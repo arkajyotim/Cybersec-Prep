@@ -150,3 +150,15 @@
                   # birth_year=input('what year were you born: ')
                   # age = 2024 - int (birth_year)
                   # print(f'your age is : {age}' )
+
+#---------------------------------------------------------------------------------------------------------------------------------
+
+#Logical Operators and Loops
+        #Liscence to drive at proper age:-
+                # is_old=True;
+                # is_liscenced=True;
+
+                # if is_old and is_liscenced:
+                #         print('you are old and you have liscence to drive');
+                # else:
+                #         print('not allowed')
