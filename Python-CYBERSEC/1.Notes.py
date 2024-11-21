@@ -177,4 +177,19 @@
 
 #LOOPS
 
+                # for item in (1,2,3,4,5):
+                #        for x in ['a','b','c']:  
+                #         print(1,'c')
         
+        # iterables:-
+                # user={
+                #         'name': 'golem',
+                #         'age':5000,
+                #         'can_swim':False
+                # }
+                # for key,value in user.items():      //key,value here is to unpack tuple dictionary
+                #         print(key,value)
+                # for item in user.values():
+                #         print(item)
+                # for item in user.keys():
+                #         print(item)
