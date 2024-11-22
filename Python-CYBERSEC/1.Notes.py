@@ -197,3 +197,11 @@
         # Range :-
                 # for number in range(0,10,2):
                 #         print(number)
+        
+        # Enumerate :-
+                # for i,char in enumerate(('a','b','c')):
+                #         print(i,char)
+
+                # for i,char in enumerate(list(range(100))):    //Index of a number using enumeration
+                #         if char == 50:
+                #                 print(f'index of 50 is: {i}')
