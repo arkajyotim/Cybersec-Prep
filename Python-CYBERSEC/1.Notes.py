@@ -188,6 +188,13 @@
                 #         i += 1
                 # else:
                 #         print('done with all the work')
+
+                #Another example        
+                # while True:
+                #         response = input('type something')
+                #         if (response == 'bye'):
+                #                 break
+
        
 
 
