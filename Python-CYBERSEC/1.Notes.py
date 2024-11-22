@@ -193,3 +193,7 @@
                 #         print(item)
                 # for item in user.keys():
                 #         print(item)
+
+        # Range :-
+                # for number in range(0,10,2):
+                #         print(number)

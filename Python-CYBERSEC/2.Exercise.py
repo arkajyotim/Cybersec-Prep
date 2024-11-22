@@ -80,3 +80,12 @@
             #   print('you are getting there')     #magician but not expert
             # elif not is_magician:
             #   print('you are not a magician')    #not magician
+
+# Exercise_Lecture_217
+
+            # #make a counter using loop that will give us the output by adding the list items 
+            # my_list = [1,2,3,4,5,6,7,8,9,10]
+            # counter = 0
+            # for item in my_list:
+            #   counter = counter + item
+            # print(counter)
