@@ -176,11 +176,22 @@
 
 
 #LOOPS
-
+        # forloop
                 # for item in (1,2,3,4,5):
                 #        for x in ['a','b','c']:  
                 #         print(1,'c')
         
+        # While Loop
+i=0;
+while i<50:
+        print(i)
+        i += 1
+else:
+        print('done with all the work')
+       
+
+
+
         # iterables:-
                 # user={
                 #         'name': 'golem',
