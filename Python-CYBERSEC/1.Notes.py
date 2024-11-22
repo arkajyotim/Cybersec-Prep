@@ -182,12 +182,12 @@
                 #         print(1,'c')
         
         # While Loop
-i=0;
-while i<50:
-        print(i)
-        i += 1
-else:
-        print('done with all the work')
+                # i=0;
+                # while i<50:
+                #         print(i)
+                #         i += 1
+                # else:
+                #         print('done with all the work')
        
 
 
