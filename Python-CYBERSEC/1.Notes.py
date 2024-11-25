@@ -88,73 +88,68 @@
 
                 # my_set={1,2,3,4,5,6}
                 # your_set={5,6,7,8,9,10}
-
-                #print(my_set.difference(your_set)) ---> intersection of set
-                #print(my_set.discard(5)) ---> remove 5 from my_set
-        #some other methods are :- .difference.update(),.intersection(),.isdisjoint(),.issubset(),.issuperset,.union()
+                #print(my_set.difference(your_set)) 
+                #print(my_set.discard(5))    
+                      
+                #some other methods are :- .difference.update(),.intersection(),.isdisjoint(),.issubset(),.issuperset,.union()
 
 #-----------------------------------------------------------------------------------------------------------------------------
 
 # Math Functions
-
-#print(round(2.6)) -> Round off to the closest integer
-#print(abs(-100)) -> prints absolute values/no negative numbers
-
-
-#-----------------------------------------------------------------------------------------------------------------------------
+                #print(round(2.6))
+                #print(abs(-100)) 
 
 # Operator Precedence
 
 #Also called operator priority , it follows the rule "PEMDAS"
-# P – Parentheses
-# E – Exponentiation
-# M – Multiplication (Multiplication and division have the same precedence)
-# D – Division
-# A – Addition (Addition and subtraction have the same precedence)
-# S – Subtraction
+                # P – Parentheses
+                # E – Exponentiation
+                # M – Multiplication (Multiplication and division have the same precedence)
+                # D – Division
+                # A – Addition (Addition and subtraction have the same precedence)
+                # S – Subtraction
 
 #-----------------------------------------------------------------------------------------------------------------------------
 
 # MISC Information
 
 #Note: Variables are in snake_case(all lower case with _ )
-#Variable
-# user_IQ = 29
-# print(user_IQ)
-# PI = 3.14 #Unchanging value 
-# a,b,c = 1,2,3
+        #Variable
+                # user_IQ = 29
+                # print(user_IQ)
+                # PI = 3.14 #Unchanging value 
+                # a,b,c = 1,2,3
 
 #Binary Convertion
-#print(bin(5))               #prints binary output in the form of 0b____
-#print(int("0b101",2))       #the binary will be stored in memory and 2 is represented as base2 which is binary
+                #print(bin(5))               
+                #print(int("0b101",2))      
 
 # Statement vs Expressions
-                  # iq=100  -> Statement 
-                  # user_Age = iq/4 -> Expression 
+                # iq=100  -> Statement 
+                # user_Age = iq/4 -> Expression 
 
 #Augmented assignment operator
-                  # some_value = 5;
-                  # some_value += 2
-                  # print(some_value)
+                # some_value = 5;
+                # some_value += 2
+                # print(some_value)
 
 #Escape sequence
-                   #weather= "It's a \"sunny\" Day Isn't it "  <------- whatever is in between \\ is considered a string
-                   #print(weather)
+                #weather= "It's a \"sunny\" Day Isn't it "  
+                #print(weather)
 
 #Built in Functions + Methods
-                  # quote='Hi there good evening'
-                  # print(quote.upper())                        <------ this will print uppercase 
+                # quote='Hi there good evening'
+                # print(quote.upper())                     
 
 
 #Type-Conversion
-                  # birth_year=input('what year were you born: ')
-                  # age = 2024 - int (birth_year)
-                  # print(f'your age is : {age}' )
+                # birth_year=input('what year were you born: ')
+                # age = 2024 - int (birth_year)
+                # print(f'your age is : {age}' )
 
 #---------------------------------------------------------------------------------------------------------------------------------
 
 #Logical Operators
-
 
         # if else elif :- 
                 #Liscence to drive at proper age:-
@@ -175,7 +170,7 @@
                 # print(can_message)
 
 
-#LOOPS
+#LOOPS 
         # forloop
                 # for item in (1,2,3,4,5):
                 #        for x in ['a','b','c']:  
@@ -204,8 +199,6 @@
                 #         print(my_list[i])
                 #         i += 1       
 
-
-
         # iterables:-
                 # user={
                 #         'name': 'golem',
@@ -230,3 +223,17 @@
                 # for i,char in enumerate(list(range(100))):    //Index of a number using enumeration
                 #         if char == 50:
                 #                 print(f'index of 50 is: {i}')
+
+#Functions
+
+                # def say_hello():
+                #         print('hi there im a function')
+                # say_hello()
+
+        #Parameters and arguments :-
+         
+        #parameters -> allot a variable to a function
+        #arguements -> actual values to a function
+                # def say_hello(name,emoji):
+                #         print(f'hi there im a function {name} {emoji}')
+                # say_hello('rexon','happy faces')
