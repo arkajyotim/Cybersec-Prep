@@ -237,3 +237,39 @@
                 # def say_hello(name,emoji):
                 #         print(f'hi there im a function {name} {emoji}')
                 # say_hello('rexon','happy faces')
+        #Keyword aguements
+                # def say_hello(name,emoji):
+                #         print(f'hi there im a function {name} {emoji}')
+                # say_hello(emoji='happy faces',name='rexon')                //alloting values to arguements exploicitly
+        #Default parameters allot predefined values to functions
+
+#Methods 
+
+                # def something():        
+                #         True
+                # print(something())
+                # print('hellooo'.capitalize())  //here capitalize() is a method
+
+
+#Return
+
+                # def get_user():
+                #     name = "Alice"
+                #     age = 25
+                #     return name, age  # Returns a tuple
+
+                # user = get_user()
+                # print(user)          # Output: ('Alice', 25)
+
+                # name, age = get_user()
+                # print(name)          # Output: Alice
+                # print(age)           # Output: 25
+
+#Docstrings
+
+                # def test(a):
+                #         '''
+                #         Info: This function will execure anything inside param a and print it
+                #         '''
+                #         print(a)
+                # test('okokokokok')
