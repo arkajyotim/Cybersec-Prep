@@ -286,3 +286,8 @@
                 # print(super_func(1,2,3,4,5,num1=1,num2=2))
 
         #NOTE: RULE:- params,*args,deafult param,**kwargs
+
+#Scoping ->     #1) Local scope
+                #2) Non-local(nested local parent variable)
+                #3) Global scope
+                #4) Built-in scope

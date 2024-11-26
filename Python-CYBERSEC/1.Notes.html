@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Python Fundamentals - Module 1</title>
@@ -42,16 +40,14 @@
         
         <h3>1. Integer (int)</h3>
         <p>Integers are whole numbers. Basic mathematical operations can easily be performed.</p>
-        <pre>
-print(type(1+2))  # int type class
+        <pre>print(type(1+2))  # int type class
 print(1-2)
 print(1*2)
         </pre>
 
         <h3>2. Float</h3>
         <p>Floats represent decimal numbers. They use more memory than integers.</p>
-        <pre>
-print(1/2)  # float data type = any kind of decimal output
+        <pre>print(1/2)  # float data type = any kind of decimal output
         </pre>
 
         <h3>3. Complex</h3>
@@ -59,8 +55,7 @@ print(1/2)  # float data type = any kind of decimal output
 
         <h3>4. String (str)</h3>
         <p>Strings are used to store textual data.</p>
-        <pre>
-print(type('Hello, world'))
+        <pre>print(type('Hello, world'))
 username = "something"
 password = "something"
 long_string = """
@@ -72,20 +67,17 @@ print(long_string)
         </pre>
 
         <h4>String Concatenation</h4>
-        <pre>
-print("rexon" + " " + 'yt')
+        <pre>print("rexon" + " " + 'yt')
         </pre>
 
         <h4>Formatted String</h4>
-        <pre>
-name = "jhonny"
+        <pre>name = "jhonny"
 age = 55
 print(f'hi {name} your age is {age}')
         </pre>
 
         <h4>String Indexes</h4>
-        <pre>
-selfish = '01234567'
+        <pre>selfish = '01234567'
 #         01234567
 # [start:stop:stepover]
 print(selfish[0:8:2])
@@ -98,8 +90,7 @@ print(selfish[::-1])  # used to Reverse a String
 
     <div class="section">
         <h2>Math Functions</h2>
-        <pre>
-print(round(2.6))  # Round off to the closest integer
+        <pre>print(round(2.6))  # Round off to the closest integer
 print(abs(-100))   # Prints absolute values/no negative numbers
         </pre>
     </div>
@@ -122,39 +113,72 @@ print(abs(-100))   # Prints absolute values/no negative numbers
         <ul>
             <li>Variables are in snake_case (all lowercase with underscores)</li>
             <li>Example variable assignments:
-                <pre>
-user_IQ = 29
+                <pre>user_IQ = 29
 print(user_IQ)
 PI = 3.14  # Unchanging value
 a, b, c = 1, 2, 3
                 </pre>
             </li>
             <li>Binary Conversion:
-                <pre>
-print(bin(5))               # prints binary output in the form of 0b____
+                <pre>print(bin(5))               # prints binary output in the form of 0b____
 print(int("0b101", 2))      # the binary will be stored in memory and 2 is represented as base2 which is binary
                 </pre>
             </li>
             <li>Statement vs Expression:
-                <pre>
-iq = 100      # Statement
+                <pre>iq = 100      # Statement
 user_Age = iq/4  # Expression
                 </pre>
             </li>
             <li>Augmented Assignment Operator:
-                <pre>
-some_value = 5
+                <pre>some_value = 5
 some_value += 2
 print(some_value)
                 </pre>
             </li>
             <li>Escape Sequence:
-                <pre>
-weather = "It's a \"sunny\" Day Isn't it"  # whatever is in between \ is considered a string
+                <pre>weather = "It's a \"sunny\" Day Isn't it"  # whatever is in between \ is considered a string
 print(weather)
                 </pre>
             </li>
         </ul>
     </div>
-</body>
-</html>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
