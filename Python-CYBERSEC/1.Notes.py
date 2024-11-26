@@ -273,3 +273,16 @@
                 #         '''
                 #         print(a)
                 # test('okokokokok')
+
+#*args and *kwargs
+        # *args accept variable no. of positional arguements
+        # **kwargs accept variable no. of keywords
+                # def super_func(*args,**kwargs):
+                #         total=0
+                #         for items in kwargs.values():
+                #                 total += items
+                #         return sum(args) + total
+
+                # print(super_func(1,2,3,4,5,num1=1,num2=2))
+
+        #NOTE: RULE:- params,*args,deafult param,**kwargs

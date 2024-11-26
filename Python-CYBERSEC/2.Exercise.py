@@ -123,3 +123,13 @@
           # def is_even(num):
           #   return num % 2 == 0
           # print(is_even(21))
+
+# Exercise_Lecture_232
+          # def highest_Even(li):
+          #   evens= []
+          #   for item in li:
+          #     if item % 2 == 0:
+          #       evens.append(item)
+          #   return max(evens) 
+
+          # print(highest_Even([10,2,3,4,5,6,7,8]))
