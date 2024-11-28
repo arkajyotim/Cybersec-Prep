@@ -1,4 +1,4 @@
-.idea
-.vscode
-misc.js
-README.md
+.idea/
+.vscode/
+*misc.js
+*README.md
