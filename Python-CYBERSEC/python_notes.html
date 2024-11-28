@@ -1,0 +1,422 @@
+<<<<<<< Tabnine <<<<<<<
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Notes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        pre {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            overflow-x: auto;
+        }
+        .code-block {
+            margin-bottom: 20px;
+        }
+        .run-btn {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        #output {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Python Notes</h1>
+
+        <h2>Fundamental Data Types</h2>
+        <p>Python has several fundamental data types: int, float, complex, str, bool, list, dict, tuple, and set.</p>
+
+        <h3>1. Integer (int)</h3>
+        <p>Integers are whole numbers used for basic mathematical operations.</p>
+        <div class="code-block">
+            <pre><code>
+print(type(1+2))
+print(1-2)
+print(1*2)
+            </code></pre>
+            <button class="run-btn" onclick="runCode(this)">Run</button>
+            <div class="output"></div>
+        </div>
+
+        <h3>2. Float</h3>
+        <p>Floats are used for decimal numbers and require more memory than integers.</p>
+        <div class="code-block">
+            <pre><code>
+print(type(1/2))
+print(1/2)
+            </code></pre>
+            <button class="run-btn" onclick="runCode(this)">Run</button>
+            <div class="output"></div>
+        </div>
+
+        <h3>3. String (str)</h3>
+        <p>Strings are used to store textual data.</p>
+        <div class="code-block">
+            <pre><code>
+print(type('Hello, world'))
+username = "something"
+password = "something"
+long_string = """
+This is a multi-line string.
+It can span multiple lines.
+This is useful for writing long texts.
+"""
+print(long_string)
+
+# String concatenation
+print("rexon" + " " + 'yt')
+
+# Formatted string
+name = "jhonny"
+age = 55
+print(f'hi {name} your age is {age}')
+
+# String indexes
+selfish = '01234567'
+print(selfish[0:8:2])
+print(selfish[::-1])  # Reverse a String
+            </code></pre>
+            <button class="run-btn" onclick="runCode(this)">Run</button>
+            <div class="output"></div>
+        </div>
+
+        <h3>4. Boolean (bool)</h3>
+        <p>Booleans represent True or False values.</p>
+        <div class="code-block">
+            <pre><code>
+print(bool(0))
+print(bool(1))
+            </code></pre>
+            <button class="run-btn" onclick="runCode(this)">Run</button>
+            <div class="output"></div>
+        </div>
+
+        <h3>5. Lists</h3>
+        <p>Lists are mutable/changeable unlike strings.</p>
+        <div class="code-block">
+            <pre><code>
+BookList = ['Harry Potter', 'Shakespeare']
+print(BookList[0])
+
+# List Slicing
+amazon_cart = ['cake', 'biscuit', 'chips', 'snacks']
+print(amazon_cart[0:4])
+
+# List methods
+basket = ['a', 'b', 'c', 'd', 'f', 'e']
+basket.sort()
+print(basket)
+
+# List Range
+print(list(range(1, 100)))
+
+# List to string conversion
+new_sentence = " ".join(['hi', 'my', 'name', 'is', 'rexon'])
+print(new_sentence)
+            </code></pre>
+            <button class="run-btn" onclick="runCode(this)">Run</button>
+            <div class="output"></div>
+        </div>
+
+        <h3>6. Dictionary</h3>
+        <p>Dictionaries are unordered key-value pairs.</p>
+        <div class="code-block">
+            <pre><code>
+dictionary = {
+    'a': 1,
+    'b': 2,
+    'c': 3,
+}
+print(dictionary["a"])
+
+# Immutable dict values
+user = {
+    'basket': [1, 2, 3],
+    'greet': 'hello',
+    'age': 20
+}
+print(user.get('age', 55))
+            </code></pre>
+            <button class="run-btn" onclick="runCode(this)">Run</button>
+            <div class="output"></div>
+        </div>
+
+        <h3>7. Tuple</h3>
+        <p>Tuples are immutable lists.</p>
+        <div class="code-block">
+            <pre><code>
+my_tuple = (1, 2, 3, 4, 5)
+print(my_tuple[2])
+
+hi_tuple = (1, 2, 3, 4, 5)
+print(hi_tuple.index(2))
+print(hi_tuple.count(2))
+            </code></pre>
+            <button class="run-btn" onclick="runCode(this)">Run</button>
+            <div class="output"></div>
+        </div>
+
+        <h3>8. Sets</h3>
+        <p>Sets have no duplicates and are immutable.</p>
+        <div class="code-block">
+            <pre><code>
+my_set = {1, 2, 3, 4, 5, 6}
+your_set = {5, 6, 7, 8, 9, 10}
+print(my_set.difference(your_set))
+print(my_set.discard(5))
+            </code></pre>
+            <button class="run-btn" onclick="runCode(this)">Run</button>
+            <div class="output"></div>
+        </div>
+
+        <h2>Math Functions</h2>
+        <div class="code-block">
+            <pre><code>
+print(round(2.6))
+print(abs(-100))
+            </code></pre>
+            <button class="run-btn" onclick="runCode(this)">Run</button>
+            <div class="output"></div>
+        </div>
+
+        <h2>Operator Precedence</h2>
+        <p>Follows the rule "PEMDAS": Parentheses, Exponentiation, Multiplication/Division, Addition/Subtraction</p>
+
+        <h2>Variables and Conversion</h2>
+        <div class="code-block">
+            <pre><code>
+user_IQ = 29
+print(user_IQ)
+
+PI = 3.14  # Unchanging value
+a, b, c = 1, 2, 3
+
+# Binary Conversion
+print(bin(5))
+print(int("0b101", 2))
+
+# Augmented assignment operator
+some_value = 5
+some_value += 2
+print(some_value)
+
+# Escape sequence
+weather = "It's a \"sunny\" Day Isn't it"
+print(weather)
+
+# Built-in Functions + Methods
+quote = 'Hi there good evening'
+print(quote.upper())
+
+# Type-Conversion
+birth_year = input('What year were you born: ')
+age = 2024 - int(birth_year)
+print(f'Your age is: {age}')
+            </code></pre>
+            <button class="run-btn" onclick="runCode(this)">Run</button>
+            <div class="output"></div>
+        </div>
+
+        <h2>Logical Operators and Control Flow</h2>
+        <div class="code-block">
+            <pre><code>
+is_old = True
+is_licensed = True//-
+is_licensed = True//+
+//+
+if is_old and is_licensed://+
+    print('You are old and you have license to drive')//+
+else://+
+    print('Not allowed')//+
+//+
+# Ternary operator//+
+is_friend = False//+
+can_message = 'message allowed' if is_friend else 'not allowed to message'//+
+print(can_message)//+
+            </code></pre>//+
+            <button class="run-btn" onclick="runCode(this)">Run</button>//+
+            <div class="output"></div>//+
+        </div>//+
+//+
+        <h2>Loops</h2>//+
+        <div class="code-block">//+
+            <pre><code>//+
+# For loop//+
+for item in (1, 2, 3, 4, 5)://+
+    for x in ['a', 'b', 'c']://+
+        print(item, x)//+
+//+
+# While loop//+
+i = 0//+
+while i < 5://+
+    print(i)//+
+    i += 1//+
+else://+
+    print('Done with all the work')//+
+//+
+# Iterables//+
+user = {//+
+    'name': 'golem',//+
+    'age': 5000,//+
+    'can_swim': False//+
+}//+
+for key, value in user.items()://+
+    print(key, value)//+
+//+
+# Range and Enumerate//+
+for number in range(0, 10, 2)://+
+    print(number)//+
+//+
+for i, char in enumerate(('a', 'b', 'c'))://+
+    print(i, char)//+
+            </code></pre>//+
+            <button class="run-btn" onclick="runCode(this)">Run</button>//+
+            <div class="output"></div>//+
+        </div>//+
+//+
+        <h2>Functions</h2>//+
+        <div class="code-block">//+
+            <pre><code>//+
+def say_hello(name, emoji)://+
+    print(f'Hi there, I'm a function {name} {emoji}')//+
+//+
+say_hello('rexon', 'happy faces')//+
+//+
+# Default parameters//+
+def greet(name='Guest', greeting='Hello')://+
+    print(f'{greeting}, {name}!')//+
+//+
+greet()//+
+greet('Alice', 'Good morning')//+
+//+
+# *args and **kwargs//+
+def super_func(*args, **kwargs)://+
+    total = 0//+
+    for items in kwargs.values()://+
+        total += items//+
+    return sum(args) + total//+
+//+
+print(super_func(1, 2, 3, 4, 5, num1=1, num2=2))//+
+//+
+# Docstrings//+
+def test(a)://+
+    '''//+
+    Info: This function will execute anything inside param a and print it//+
+    '''//+
+>>>>>>> Tabnine >>>>>>>// {"source":"chat"}
+if is_old and is_licensed:
+    print('You are old and you have license to drive')
+else:
+    print('Not allowed')
+
+# Ternary operator
+is_friend = False
+can_message = 'message allowed' if is_friend else 'not allowed to message'
+print(can_message)
+            </code></pre>
+            <button class="run-btn" onclick="runCode(this)">Run</button>
+            <div class="output"></div>
+        </div>
+
+        <h2>Loops</h2>
+        <div class="code-block">
+            <pre><code>
+# For loop
+for item in (1, 2, 3, 4, 5):
+    for x in ['a', 'b', 'c']:
+        print(item, x)
+
+# While loop
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+else:
+    print('Done with all the work')
+
+# Iterables
+user = {
+    'name': 'golem',
+    'age': 5000,
+    'can_swim': False
+}
+for key, value in user.items():
+    print(key, value)
+
+# Range and Enumerate
+for number in range(0, 10, 2):
+    print(number)
+
+for i, char in enumerate(('a', 'b', 'c')):
+    print(i, char)
+            </code></pre>
+            <button class="run-btn" onclick="runCode(this)">Run</button>
+            <div class="output"></div>
+        </div>
+
+        <h2>Functions</h2>
+        <div class="code-block">
+            <pre><code>
+def say_hello(name, emoji):
+    print(f'Hi there, I'm a function {name} {emoji}')
+
+say_hello('rexon', 'happy faces')
+
+# Default parameters
+def greet(name='Guest', greeting='Hello'):
+    print(f'{greeting}, {name}!')
+
+greet()
+greet('Alice', 'Good morning')
+
+# *args and **kwargs
+def super_func(*args, **kwargs):
+    total = 0
+    for items in kwargs.values():
+        total += items
+    return sum(args) + total
+
+print(super_func(1, 2, 3, 4, 5, num1=1, num2=2))
+
+# Docstrings
+def test(a):
+    '''
+    Info: This function will execute anything inside param a and print it
+    '''
