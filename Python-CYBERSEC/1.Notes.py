@@ -251,7 +251,6 @@
                 # print('hellooo'.capitalize())  //here capitalize() is a method
 
 
-
 #Return
 
                 # def get_user():
