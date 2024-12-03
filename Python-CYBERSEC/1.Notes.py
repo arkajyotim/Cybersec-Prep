@@ -243,7 +243,6 @@
                 # say_hello(emoji='happy faces',name='rexon')                //alloting values to arguements exploicitly
         #Default parameters allot predefined values to functions
 
-
 #Methods 
 
                 # def something():        
