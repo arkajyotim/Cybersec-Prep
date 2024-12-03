@@ -274,7 +274,6 @@
                 #         print(a)
                 # test('okokokokok')
 
-
 #*args and *kwargs
         # *args accept variable no. of positional arguements
         # **kwargs accept variable no. of keywords
