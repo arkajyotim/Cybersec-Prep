@@ -287,6 +287,7 @@
 
         #NOTE: RULE:- params,*args,deafult param,**kwargs
 
+
 #Scoping ->     #1) Local scope
                 #2) Non-local(nested local parent variable)
                 #3) Global scope
