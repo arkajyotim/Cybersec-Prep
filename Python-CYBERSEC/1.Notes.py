@@ -292,9 +292,7 @@
                 #3) Global scope
                 #4) Built-in scope
 
-
 #Error-Handling
-
 
                 # while True:
                 #         try:
