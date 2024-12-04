@@ -243,6 +243,7 @@
                 # say_hello(emoji='happy faces',name='rexon')                //alloting values to arguements exploicitly
         #Default parameters allot predefined values to functions
 
+
 #Methods 
 
                 # def something():        
@@ -292,6 +293,7 @@
                 #2) Non-local(nested local parent variable)
                 #3) Global scope
                 #4) Built-in scope
+
 
 #Error-Handling
 
