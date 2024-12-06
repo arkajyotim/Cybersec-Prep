@@ -266,6 +266,7 @@
                 # print(name)          # Output: Alice
                 # print(age)           # Output: 25
 
+
 #Docstrings
 
                 # def test(a):
@@ -274,6 +275,7 @@
                 #         '''
                 #         print(a)
                 # test('okokokokok')
+
 
 #*args and *kwargs
         # *args accept variable no. of positional arguements
