@@ -1,6 +1,6 @@
 # Welcome to My Ethical Hacking Journey! 🚀
 
-Hi there! 👋 Welcome to my GitHub repository dedicated to my journey through the **Zero to Mastery (ZTM) Ethical Hacking course**. Here, you'll find notes, scripts, and projects that I'm working on as I learn the fundamentals of ethical hacking, cybersecurity, and penetration testing.
+Hi there! 👋 Welcome to my GitHub repository dedicated to my journey through the **Ethical Hacking course**. Here, you'll find notes, scripts, and projects that I'm working on as I learn the fundamentals of ethical hacking, cybersecurity, and penetration testing.
 
 ## 📚 About This Repository
 
