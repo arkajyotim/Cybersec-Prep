@@ -25,3 +25,4 @@ if ',' in targets:
 else:
 	scan(targets,ports)
 
+#this is a port scanning device made to scan all 65k ports and filter it based on open and closed
