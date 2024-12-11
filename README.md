@@ -14,6 +14,7 @@ This repository serves as a collection of my learning resources, project files, 
 
 ## 🛠 Tools and Technologies
 
+
 Throughout this journey, I'm using a variety of tools commonly used in the field of cybersecurity, including:
 - **Kali Linux** - a distribution designed for penetration testing
 - **Wireshark** - for network packet analysis
