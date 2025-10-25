@@ -77,4 +77,3 @@ Disclaimer
 This script is for educational purposes only. Unauthorized scanning of systems is illegal and unethical. Ensure you have explicit permission before scanning any system.
 
 Feel free to fork, contribute, or raise issues.
-Made with ❤️ by JEET
