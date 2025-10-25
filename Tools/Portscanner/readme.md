@@ -40,7 +40,7 @@ This Python script is designed to scan a specified number of ports on one or mor
 ### Setup
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YourUsername/PortScanner.git
+   git clone https://github.com/arkajyotim/PortScanner.git
    cd PortScanner
 Install any necessary dependencies (if applicable):
 
